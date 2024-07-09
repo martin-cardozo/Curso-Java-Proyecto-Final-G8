@@ -1,0 +1,44 @@
+/* Pie de página */
+.footer-container {
+    background-color: #fee13e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex-basis: calc(25% - 20px);
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list-item {
+    margin-right: 10px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}

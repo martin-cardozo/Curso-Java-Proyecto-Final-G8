@@ -1,0 +1,177 @@
+.contact {
+    height: 39.4em;
+    display: flex;
+    background-color: #fff;
+    color: #252525;
+}
+  
+.contact section {
+    margin: 8px 35px;
+}
+  
+/* Parte izquierda */
+  
+.contact section h2 {
+    font-size: 30px;
+    margin: 20px;
+}
+  
+.contact .formulario {
+    width: 80%;
+}
+  
+.contact .data {
+    display: flex;
+}
+  
+.contact .formulario .campo {
+    padding: 20px;
+    width: 100%;
+}
+  
+.contact .formulario .campo p {
+    color: red;
+}
+  
+.contact .formulario .campo hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin-bottom: 0.5em;
+}
+  
+.contact input {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+  
+.textinput {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    margin-top: 15px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+  
+.contact button {
+    background-color: #161616;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.contact button:hover {
+    background-color: #f6f6f6;
+    color: #161616;
+    outline: 1px solid #161616;
+    transition: 0.3s ease-in-out;
+}
+  
+/* Mensaje de éxito */
+  
+.contact .message {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+  
+.contact .message .success {
+    display: none;
+    position: absolute;
+    color: green;
+    font-size: 16px;
+    animation: buttons 0.3s linear;
+}
+  
+@keyframes buttons {
+    0% {
+      transform: scale(0.1);
+    }
+    50% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+  
+  /* Parte derecha */
+  
+  .contact .info {
+    width: 20%;
+  }
+  
+  .contact .info .info-section {
+    margin: 30px 0;
+  }
+  
+  .contact .info p {
+    margin: 3px 0;
+    font-size: 13px;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 70%;
+    /* 16 / 9 ratio */
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  /* Responsive */
+  @media only screen and (max-width: 1080px) {
+    .contact {
+      display: block;
+      height: 100%;
+    }
+  
+    .contact section {
+      padding: 20px 0;
+    }
+  
+    .contact .formulario {
+      width: 90%;
+    }
+  
+    .contact .data {
+      display: block;
+    }
+  
+    .contact .info {
+      width: 90%;
+      padding: 0 20px;
+    }
+  
+    .contact .info .info-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact .info p {
+      font-size: 16px;
+    }
+  
+    .map-responsive {
+      padding-bottom: 56.25%;
+      /* 16 / 9 ratio */
+    }
+  }
+  

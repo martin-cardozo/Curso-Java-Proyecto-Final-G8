@@ -1,0 +1,61 @@
+
+.container {
+    margin: 5rem;
+}
+  
+.card-body {
+    padding: 2rem;
+}
+  
+.card-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+  
+.form-group {
+    margin-bottom: 1.5rem;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+  
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+  
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+  
+.btn-block {
+    width: 100%;
+}
+
+.enlace-registro{
+    text-align: center;
+    margin-top: 1rem;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+  
+.enlace-registro:hover {
+    color: #727272;
+    text-decoration: underline; 
+}
+
+.mensajeError {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+  
